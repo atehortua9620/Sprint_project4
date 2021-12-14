@@ -7,8 +7,9 @@
 .left{
   height: 100vh;
   width: 50vw;
-  border: red solid 1px;
+ /*  border: red solid 1px; */
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -16,4 +17,10 @@
 .left img{
 
   height: 200px;
+}
+
+.paroles img{
+  height:100px;
+  width:200px;
+ /*  border: solid red 1px; */
 }
