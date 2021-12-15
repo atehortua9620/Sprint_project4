@@ -1,12 +1,13 @@
-/* import logo_home from '../Images/logoBG.svg'; */
-
 import '../Styles/Home.css'
 
 export default function Home (){
 
     return(
         <div >
-            {/* <img src={logo_home} alt="logo"></img> */}
+            <div clasName="homeContainer">
+            <h1>WELCOME <br/><span>NAME!</span></h1>
+            </div>
+          
         </div>
-    )
+    );
 }

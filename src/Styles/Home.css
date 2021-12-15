@@ -1,0 +1,17 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+.homeContainer{
+    position: absolute;
+    top:0px;
+    left:50%;
+    height: 94vh;
+    width: 50vw;
+    border:solid red 1px;
+}
+
+.homeContainer h1{
+    color:white;
+}
