@@ -1,6 +1,4 @@
 import './Styles/App.css';
-
-
 import Home from  './Components/HomeImg'
 
 

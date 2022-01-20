@@ -4,7 +4,7 @@
 }
 .App{
   display:block;
-  background-image: url(../Images/logoBG.svg);
+  background-color: rgba(46, 19, 44, 1);
   width: 100vw;
   height:100vh;
 }
