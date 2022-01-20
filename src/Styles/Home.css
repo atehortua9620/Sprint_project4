@@ -1,17 +1,109 @@
-/* *{
-    margin: 0px;
-    padding: 0px;
-} */
-
 .homeContainer{
     position: absolute;
+    display:flex;
+    flex-direction: column;
     top:0px;
     left:50%;
     height: 94vh;
     width: 50vw;
-    border:solid red 1px;
+    /* border:solid red 1px; */
 }
 
-.homeContainer h1{
-    color:white;
+.homeContainer_parole{
+
+  margin-top: 100px;
+  margin-left: 80px;
+  width: 200px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+.homeContainer .fill{
+
+  font-family: 'Fira Code', monospace;
+  margin-top: 40px;
+  margin-left: 80px;
+  width: 270px;
+  height:30px;
+  background-color: rgba(21, 7, 20, 1);
+  color:white;
+  border: 0px;
+}
+
+
+.homeContainer p{
+
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+  margin-left: 80px;
+  margin-top:15px;
+  color:white;
+
+}
+.homeContainer .squres{
+
+  display: flex;
+  width: 250px;
+  margin-top:15px;
+  margin-left: 80px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.homeContainer .squres .Square{
+
+  width: 30px;
+  height: 30px;
+/*   border: solid red 1px; */
+}
+
+.homeContainer .squres .first {
+
+  background-color: rgba(245, 13, 90, 1);
+  cursor:pointer;
+}
+
+.homeContainer .squres .second {
+
+  background-color:rgba(255, 134, 92, 1);
+  cursor:pointer;
+}
+
+.homeContainer .squres .third {
+
+  background-color:rgba(255, 234, 92, 1);
+  cursor:pointer;
+}
+.homeContainer .squres .fourth {
+
+  background-color:rgba(0, 218, 118, 1);
+  cursor:pointer;
+}
+.homeContainer .squres .fith {
+
+  background-color:rgba(0, 150, 206, 1);
+  cursor:pointer;
+}
+.homeContainer .squres .sixth {
+
+  background-color:rgba(128, 15, 255, 1);
+  cursor:pointer;
+}
+
+.homeContainer input {
+
+  background-color: rgba(0, 218, 118, 1);
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  margin-left: 80px;
+  margin-top: 35px;
+  width: 270px;
+  height: 45px;
+  cursor:pointer;
+}
+
+.homeContainer p span{
+  color: red;
+}
+

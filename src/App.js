@@ -1,7 +1,8 @@
 import './Styles/App.css';
 
-import Logs from './Components/Logo'
+
 import Home from  './Components/HomeImg'
+import Logs from './Components/Logo'
 
 function App() {
   return (
