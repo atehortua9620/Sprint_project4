@@ -1,12 +1,16 @@
 import '../Styles/Home.css'
 import Title from '../Images/WELCOME.png'
+import Logo from '../Images/full-icon.png'
 
 
 export default function Home (){
 
     return(
         <div >
-            
+            <div className= 'logicon'>
+                <img src= {Logo} alt='logo'></img>
+
+            </div>
             <div className= 'homeContainer'>
                 <img className= 'homeContainer_parole' src= {Title} alt="title"></img>
                 <input className= 'fill' type='text' placeholder='Type your username'></input>
